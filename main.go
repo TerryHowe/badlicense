@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/TerryHowe/badlicense/pkg/greeter"
 
 func main() {
-	fmt.Println("Hello, World!")
+	greeter.Hello()
 }
